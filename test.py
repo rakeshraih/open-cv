@@ -19,7 +19,8 @@ category_ids = coco.getCatIds(['grated'])
 image_ids = coco.getImgIds(catIds=[2])
 print(image_ids[0:5])
 
-image = Image.open("./IMG_5661.jpg")
+# image = Image.open("./IMG_5661.jpg")
+image = Image.open("./coconuts/IMG_5661.jpeg")
 
 annotation_ids = coco.getAnnIds(imgIds=0, catIds=[2])
 anns = coco.loadAnns(annotation_ids)

@@ -2,3 +2,6 @@ numpy
 pandas
 matplotlib
 pycocotools
+ipython
+cv2
+matplotlib
