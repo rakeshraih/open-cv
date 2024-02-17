@@ -21,7 +21,7 @@ def imshow(img, ax=None):
         ax.axis('off') 
   
 #Image loading 
-img = cv2.imread("./IMG_5661.jpg") 
+img = cv2.imread("./coconuts/1.jpeg") 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) 
   
 #Threshold Processing 

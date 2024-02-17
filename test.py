@@ -16,13 +16,14 @@ category_ids = coco.getCatIds(['grated'])
 
 
 # Get list of image_ids which contain bicycles
-image_ids = coco.getImgIds(catIds=[2])
+image_ids = coco.getImgIds(catIds=[0])
 print(image_ids[0:5])
 
 # image = Image.open("./IMG_5661.jpg")
+# image = Image.open("./coconuts/IMG_5661.jpeg")
 image = Image.open("./coconuts/IMG_5661.jpeg")
 
-annotation_ids = coco.getAnnIds(imgIds=0, catIds=[2])
+annotation_ids = coco.getAnnIds(imgIds=0, catIds=[0])
 anns = coco.loadAnns(annotation_ids)
 
 
